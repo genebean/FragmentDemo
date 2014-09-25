@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fragment Demo</string>
+    <string name="mainfrag">This text is from the main fragment.</string>
+    <string name="action_settings">Settings</string>
+    <string name="secondfrag">This is in the secondary fragment</string>
+    <string name="submit">Submit</string>
+
+</resources>
