@@ -1,4 +1,4 @@
-# Fragemnt Demo
+# Fragment Demo
 
 This repo has a sample application that shows the flexibility of using fagments 
 as part of an Android application. Below is a tutorial on how to utilize the 
