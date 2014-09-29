@@ -13,6 +13,8 @@ public class DemoActivity extends Activity implements OnSubmitListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+		// Set the layout to one that holds the fragments
 		setContentView(R.layout.activity_main);
 	}
 
@@ -35,13 +37,29 @@ public class DemoActivity extends Activity implements OnSubmitListener {
 		return super.onOptionsItemSelected(item);
 	}
 
+	/**
+	 * This method takes a string of text that is entered into an EditText in
+	 * the first fragment and replaces the text of the first TextView in the
+	 * second fragment with it.
+	 * 
+	 * 
+	 * @param text
+	 *            The string of text to send to the second fragment
+	 * 
+	 */
 	public void onSubmission(String text) {
+
 		SecondFragment fragment = (SecondFragment) getFragmentManager()
 				.findFragmentById(R.id.fragmentSecond);
-		if (fragment != null && fragment.isInLayout()) {
-			TextView tv1 = (TextView) findViewById(R.id.TextView1);
-			tv1.setText(text); //TODO: make update persist rotation
-		}
-	}
 
-}
+		if (fragment != null && fragment.isInLayout()) {
+
+			TextView tv1 = (TextView) findViewById(R.id.TextView1);
+
+			tv1.setText(text); // TODO: make update persist rotation
+
+		} // end if
+		
+	} // end onSubmission(String text)
+
+} // end DemoActivity

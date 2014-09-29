@@ -11,10 +11,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.fragmentdemo.MainFragment" >
 
+    <!-- Add a string of text to identify which fragment this is -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mainfrag" />
+
+    <!-- Add a box to enter text into -->
 
     <EditText
         android:id="@+id/editTextEntryField"
@@ -25,6 +29,8 @@
 
         <requestFocus />
     </EditText>
+
+    <!-- Add a button to submit the text in the box -->
 
     <Button
         android:id="@+id/buttonSubmit"

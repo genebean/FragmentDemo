@@ -1,13 +1,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:baselineAligned="false"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:baselineAligned="false"
     android:orientation="horizontal"
     tools:context="com.example.fragmentdemo.DemoActivity"
     tools:ignore="MergeRootFrame" >
+
+    <!--
+    Add both fragments and but, in contrast to the portrate 
+    view, make the first one twice as big as the second one.
     
+    Note that the only thing needed to make this change was 
+    one layout file with two refernces to fragmetns in it... 
+    no reimplementing of code was needed nor was there a need 
+    to add the fragments' layout files to the layout-land folder.
+    -->
+
     <fragment
         android:id="@+id/fragmentMain"
         android:name="com.example.fragmentdemo.MainFragment"

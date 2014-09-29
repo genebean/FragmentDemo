@@ -11,6 +11,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.fragmentdemo.MainFragment" >
 
+    <!--
+    Add multiple string of text the screen showing that this 
+    is the second fragment. The the first one of these will 
+    be replaced by text from teh main fragment when someone 
+    presses the submit button.
+    -->
+
     <TextView
         android:id="@+id/TextView1"
         android:layout_width="wrap_content"
