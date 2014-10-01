@@ -43,7 +43,7 @@ differentiated by color on the screen. Each color represents the entiritey of a
 single fragment. If you enter text in the box of the first fragment and press the 
 `Submit` button you will see it replace a line of text in the second fragment.
 
-If you review the code in your editor or on Bitbucket you will see that there are 
+If you review the code in your editor or on GitHub you will see that there are 
 three activities with corresponding layouts. You will also see that there are files 
 in values being utilized: `strings.xml` and `colors.xml`. All the code that is not 
 purely stock from when the files were created by Ecliplse has been commented to 
