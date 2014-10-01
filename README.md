@@ -1,4 +1,4 @@
-# Fragment Demo
+# Fragemnt Demo
 
 This repo has a sample application that shows the flexibility of using fagments 
 as part of an Android application. Below is a tutorial on how to utilize the 
@@ -28,7 +28,9 @@ cd fragmentdemo
 ```
 
 If you are not using git or just want to grab a copy by hand then you can do so by 
-going to https://bitbucket.org/genebean/fragmentdemo/downloads and clicking on `Download repository` This will download a copy of the repository in ZIP format. You will want to unzip it before moving on to the next step.
+going to https://bitbucket.org/genebean/fragmentdemo/downloads and clicking on 
+`Download repository` This will download a copy of the repository in ZIP format. 
+You will want to unzip it before moving on to the next step.
 
 Now you can open Ecliipse and go to `File -> Import...` and select 
 `Android -> Existing Android Code into Workspace`. At this point you should be able 
@@ -47,9 +49,9 @@ in values being utilized: `strings.xml` and `colors.xml`. All the code that is n
 purely stock from when the files were created by Ecliplse has been commented to 
 help explain what is going on.
 
-## Recreating from Scratch
-TODO: Write this part
+## A Step-by-Step Tutorial
 
+[Tutorial.md](Tutorial.md)
 
 ### *Giving credit where it's due:*
 *This README was created using the awesome http://dillinger.io online editor*
