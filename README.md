@@ -51,7 +51,7 @@ help explain what is going on.
 
 ## A Step-by-Step Tutorial
 
-[Tutorial.md](Tutorial.md)
+[Tutorial.md](./Tutorial.md)
 
 ### *Giving credit where it's due:*
 *This README was created using the awesome http://dillinger.io online editor*
