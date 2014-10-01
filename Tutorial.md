@@ -121,15 +121,15 @@ the second fragment.
 
 3. Create the following layout XML files in the res/layout.
 
-  - `fragment_main.xml`
+  - [`fragment_main.xml`](res/layout/fragment_main.xml)
   
     ![fragment_main.png](tutorial_pictures/fragment_main.png)
 
- - `fragment_secondary.xml`
+ - [`fragment_secondary.xml`](res/layout/fragment_secondary.xml)
 
     ![fragment_secondary.png](tutorial_pictures/fragment_secondary.png)
 
-  - `activity_main.xml`
+  - [`activity_main.xml`](res/layout/activity_main.xml)
 
     ![activity_main.png](tutorial_pictures/activity_main.png)
 
