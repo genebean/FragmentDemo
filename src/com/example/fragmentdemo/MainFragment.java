@@ -26,10 +26,10 @@ public class MainFragment extends Fragment {
 			Bundle savedInstanceState) {
 
 		// The view that will hold the main fragment
-		view = inflater.inflate(R.layout.fragment_main, container, false);
+		this.view = inflater.inflate(R.layout.fragment_main, container, false);
 
 		// The items in the main fragment
-		entryField = (EditText) view.findViewById(R.id.editTextEntryField);
+		this.entryField = (EditText) view.findViewById(R.id.editTextEntryField);
 		Button submit = (Button) view.findViewById(R.id.buttonSubmit);
 
 		// Add a listener to the submit button
