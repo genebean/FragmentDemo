@@ -22,14 +22,14 @@ Follow the instructions below to get it into your copy of Eclipse:
 ```sh
 # If using Git:
 cd Downloads # or some other directory
-git clone https://genebean@bitbucket.org/genebean/fragmentdemo.git  
+git clone https://github.com/genebean/FragmentDemo.git  
 cd fragmentdemo
 
 ```
 
 If you are not using git or just want to grab a copy by hand then you can do so by 
-going to https://bitbucket.org/genebean/fragmentdemo/downloads and clicking on 
-`Download repository` This will download a copy of the repository in ZIP format. 
+going to https://github.com/genebean/FragmentDemo/archive/master.zip 
+This will download a copy of the repository in ZIP format. 
 You will want to unzip it before moving on to the next step.
 
 Now you can open Ecliipse and go to `File -> Import...` and select 
