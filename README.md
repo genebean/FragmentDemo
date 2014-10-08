@@ -1,5 +1,7 @@
 # Fragemnt Demo
 
+[![Build Status](https://travis-ci.org/genebean/FragmentDemo.svg?branch=gradle-setup)](https://travis-ci.org/genebean/FragmentDemo) on branch gradle-setup
+
 This repo has a sample application that shows the flexibility of using fagments 
 as part of an Android application. Below is a tutorial on how to utilize the 
 sample code and also how to recreate it on your own.
