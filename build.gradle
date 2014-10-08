@@ -48,3 +48,8 @@ task appStart(type: Exec, dependsOn: 'installDebug') {
     // windows
     // commandLine 'cmd', '/c', 'adb', 'shell', 'am', 'start', '-n', 'com.example/.MyActivity'      
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.10'
+}
+
